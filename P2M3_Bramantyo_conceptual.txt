@@ -1,0 +1,17 @@
+Answer 1:
+NoSQL, which is a short for "Not only SQL" is a database that is not tabular. Hence, we can extract and manipulate different types of data stored within a database and use it for further cleaning.
+
+Answer 2:
+Most advanced tech companies uses NoSQL because they are an 'agile' company where they operate in a swift pace. Because agile is all about speed and haste, the company need to gather data as much as possible and be processed as soon as possible. With regular SQL, this method will not be possible because different types of data needed to be stored differently. However, with NoSQL, different types of data can be stored within the same database or even data frame.
+
+Answer 3:
+Two tools that come to mind are: Cassandra and MongoDB. Cassandra holds an advantage in its structured format for storing data, but expects the data that we have to be in a fixed format. Otherwise if the data is not in a fixed format, MongoDB should be used instead because of its dynamic structure and can handle changing data.
+
+Answer 4:
+To put it simply, airflow is a tool to automate our process of extracting the data from postgres database into the airflow, then for our data to be cleaned automatically in the airflow, and finally load the data that is already cleaned into the elasticsearch API. If there are changes within the data, the airflow can automate the cleaning process again, and if there is changes in the cleaning process, airflow can reprocess the cleaning part again before sending out the cleaned data to the elasticsearch API and our folder.
+
+Answer 5: 
+Great expectation is a tool to check if the column in our data holds the value or values we expected to hold. Great expectation is a useful tool to ensure our cleaning process is done thoroughly and met the standard operating procedure
+
+Answer 6:
+Batch processing is when we automate multiple step of processing a data without doing any human intervention within the process itself. Just like how we use airflow, batch processing require us to write the programs, define them, and define the steps at the end. If there are changes need to be made, you can do so and the batch can reset the process. However, because of this batch processing can take a lot longer than streaming.
