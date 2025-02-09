@@ -1,3 +1,4 @@
+![Alt text](image.png)
 # 📊 Project Title: Watch Market Data Analysis
 ## 📝 Overview
 In this project, I will act as a Data Analyst from Rolex and I will provide insight regarding how the company compares to its competitor
